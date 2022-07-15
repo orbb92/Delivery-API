@@ -1,0 +1,24 @@
+{
+  "name": "delivery",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "cookie-parser": "~1.4.4",
+    "cors": "^2.8.5",
+    "debug": "~2.6.9",
+    "dotenv": "^16.0.1",
+    "express": "~4.16.1",
+    "firebase-admin": "^10.0.2",
+    "holidayapi": "^6.0.1",
+    "libphonenumber-js": "^1.9.46",
+    "morgan": "~1.9.1",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
